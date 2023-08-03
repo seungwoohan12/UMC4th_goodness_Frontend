@@ -7,8 +7,13 @@ import android.view.ViewGroup
 import android.widget.TextView
 
 import com.example.precede1.placeholder.PlaceholderContent.PlaceholderItem
+<<<<<<< HEAD
 import com.example.precede1.databinding.FragmentItemBinding
 
+=======
+/*import com.example.precede1.databinding.FragmentItemBinding */
+/*
+>>>>>>> fee1a72 (Second commit)
 /**
  * [RecyclerView.Adapter] that can display a [PlaceholderItem].
  * TODO: Replace the implementation with code for your data type.
@@ -46,4 +51,8 @@ class MyItemRecyclerViewAdapter(
         }
     }
 
+<<<<<<< HEAD
 }
+=======
+}*/
+>>>>>>> fee1a72 (Second commit)
