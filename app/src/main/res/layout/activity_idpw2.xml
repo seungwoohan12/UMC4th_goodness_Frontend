@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity_b_1"
+    tools:layout_editor_absoluteX="55dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디 찾기"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호 찾기"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="20dp"
+        android:layout_height="23dp"
+        app:srcCompat="?android:attr/textCheckMarkInverse"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="개인 계정"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="단체 계정"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        app:backgroundTint="#3281F8"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="인증번호"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#D9D9D9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="인증번호를 입력해주세요."
+        android:textColor="#979797"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#D9D9D9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="아이디를 입력해주세요."
+        android:textColor="#979797"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:text="인증"
+        android:textSize="12sp"
+        app:backgroundTint="#3281F8"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="60dp"
+        android:layout_height="55dp"
+        android:text="확인"
+        android:textSize="12sp"
+        app:backgroundTint="#3281F8"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="42dp"
+        android:layout_height="25dp"
+        android:text="3:00"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
