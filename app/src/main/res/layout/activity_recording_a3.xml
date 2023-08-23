@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recording_a3">
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="12dp"
+        android:layout_height="16dp"
+        android:text="*"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="326dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="76dp"
+        android:text="선행을 기록해 보세요."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="#3281F8"
+        android:text="3/3"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="70dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
+        android:text="완료"
+        app:backgroundTint="#3281F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="83dp"
+        android:layout_height="23dp"
+        android:text="날짜 기록하기"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="83dp"
+        android:layout_height="23dp"
+        android:text="글로 기록하기"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="86dp"
+        android:layout_height="21dp"
+        android:text="유형 기록하기"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="41dp"
+        android:layout_height="18dp"
+        android:text="최대 2개"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="85dp"
+        android:layout_height="26dp"
+        android:text="사진 기록하기"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/500"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="353dp"
+        tools:layout_editor_absoluteY="680dp" />
+
+    <ScrollView
+        android:layout_width="325dp"
+        android:layout_height="142dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="557dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="324dp"
+                android:layout_height="138dp"
+                android:background="#E9F2FF"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="147dp"
+        android:layout_height="27dp"
+        android:text="2023년 1월 1일"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="37dp"
+        android:layout_height="31dp"
+        app:srcCompat="@android:drawable/ic_menu_my_calendar"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="146dp"
+        android:layout_height="131dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="396dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/stat_notify_more"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="186dp"
+        android:layout_height="19dp"
+        android:text="기부증서나 인증서를 첨부해주세요!"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="12dp"
+        android:layout_height="16dp"
+        android:text="*"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="12dp"
+        android:layout_height="16dp"
+        android:text="*"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="13dp"
+        android:layout_height="16dp"
+        android:text="*"
+        android:textColor="#FF0000"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="40dp"
+        android:layout_height="18dp"
+        android:background="#E9F2FF"
+        android:text="# 기부"
+        android:textAlignment="center"
+        android:textColor="#3281F8"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="40dp"
+        android:layout_height="18dp"
+        android:background="#E9F2FF"
+        android:text="# 양보 "
+        android:textAlignment="center"
+        android:textColor="#3281F8"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="40dp"
+        android:layout_height="18dp"
+        android:background="#E9F2FF"
+        android:text="# 돕기 "
+        android:textAlignment="center"
+        android:textColor="#3281F8"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="40dp"
+        android:layout_height="18dp"
+        android:background="#E9F2FF"
+        android:text="# 배려 "
+        android:textAlignment="center"
+        android:textColor="#3281F8"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="40dp"
+        android:layout_height="18dp"
+        android:background="#E9F2FF"
+        android:text="# 용기 "
+        android:textAlignment="center"
+        android:textColor="#3281F8"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기부금액"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="원"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="누적 회차"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton13"
+        android:layout_width="86dp"
+        android:layout_height="28dp"
+        android:text="정기기부"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton14"
+        android:layout_width="102dp"
+        android:layout_height="28dp"
+        android:text="일시적 기부"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="58dp"
+        android:layout_height="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName23"
+        android:layout_width="25dp"
+        android:layout_height="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

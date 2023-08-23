@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="12dp"
+        android:text="｜"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_firstwatch"
+        app:layout_constraintStart_toEndOf="@+id/btn_use3" />
+
+    <Button
+        android:id="@+id/btn_use3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="163dp"
+        android:layout_marginBottom="124dp"
+        android:layout_weight="1"
+        android:text="회원가입"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/btn_use"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:text="비밀번호"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+
+    <Button
+        android:id="@+id/btn_individual"
+        android:layout_width="116dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="110dp"
+        android:cursorVisible="true"
+        android:text="개인"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="#3281F8"
+        app:cornerRadius="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_organ"
+        android:layout_width="116dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="45dp"
+        android:cursorVisible="true"
+        android:rotationX="-4"
+        android:text="단체        (동아리/기업)"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="#3281F8"
+        app:cornerRadius="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:background="#D9D9D9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="이메일"
+        android:textColor="#979797"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        android:text="아이디"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:background="#D9D9D9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="비밀번호 8자리 이상"
+        android:textColor="#979797"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="86dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginBottom="400dp"
+        android:text="동아리"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_individual"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="86dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="400dp"
+        android:text="기업"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_organ"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_finder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="172dp"
+        android:text="아이디 찾기/ 비밀번호 찾기"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_firstwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:text="먼저 들어가볼래요!"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_finder" />
+
+    <Button
+        android:id="@+id/btn_use"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="이용약관"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_policy"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_policy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="개인정보 처리방침"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_use" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

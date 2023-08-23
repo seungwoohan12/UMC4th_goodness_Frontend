@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Groupprofilesearch2">
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="124dp"
+        android:layout_height="142dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="95dp"
+        android:layout_height="78dp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="325dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="124dp"
+        android:layout_height="142dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="95dp"
+        android:layout_height="78dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="325dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="124dp"
+        android:layout_height="142dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="124dp"
+        android:layout_height="142dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="366dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="95dp"
+        android:layout_height="78dp"
+        tools:layout_editor_absoluteX="337dp"
+        tools:layout_editor_absoluteY="154dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="356dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="124dp"
+        android:layout_height="142dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="95dp"
+        android:layout_height="78dp"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="154dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="95dp"
+        android:layout_height="78dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="154dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="155dp"
+        android:layout_height="208dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="127dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="504dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="155dp"
+        android:layout_height="208dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이런 단체는 어때요?"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색결과"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="127dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="504dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="동아리"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기업"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="34dp"
+        android:layout_height="39dp"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색어를 입력해주세요."
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="37dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
