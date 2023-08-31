@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Groupprofilesearch1">
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="323dp"
+        android:layout_height="32dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        app:srcCompat="?android:attr/actionModeWebSearchDrawable"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색어를 입력해주세요."
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최근 검색어"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이런 단체는 어때요?"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="68dp"
+        android:layout_height="24dp"
+        android:text="검색어"
+        android:textColor="#3281F8"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView106"
+        android:layout_width="68dp"
+        android:layout_height="24dp"
+        android:text="검색어"
+        android:textColor="#3281F8"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="68dp"
+        android:layout_height="24dp"
+        android:text="검색어"
+        android:textColor="#3281F8"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:id="@+id/textView109"
+        android:layout_width="68dp"
+        android:layout_height="24dp"
+        android:text="검색어"
+        android:textColor="#3281F8"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="68dp"
+        android:layout_height="24dp"
+        android:text="검색어"
+        android:textColor="#3281F8"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="17dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="17dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="17dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="17dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="17dp"
+        android:layout_height="21dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 최근 검색 결과가 없습니다."
+        android:textColor="#800000"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="155dp"
+        android:layout_height="208dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="155dp"
+        android:layout_height="208dp"
+        android:background="#E9F2FF"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="127dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="404dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="127dp"
+        android:layout_height="107dp"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="404dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="54dp"
+        android:layout_height="23dp"
+        android:text="소개글"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

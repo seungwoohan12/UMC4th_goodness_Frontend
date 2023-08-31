@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="411dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName31"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="376dp" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                app:srcCompat="@drawable/baseline_newspaper_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="179dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton29"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_add_24"
+                tools:layout_editor_absoluteX="367dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName29"
+                android:layout_width="379dp"
+                android:layout_height="21dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="267dp" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                app:srcCompat="@drawable/baseline_help_outline_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton32"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_add_24"
+                tools:layout_editor_absoluteX="367dp"
+                tools:layout_editor_absoluteY="342dp" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="28dp"
+                android:layout_height="34dp"
+                app:srcCompat="@drawable/baseline_logout_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="450dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName33"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="484dp" />
+
+            <TextView
+                android:id="@+id/textView153"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="탈퇴"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="504dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName26"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+            <TextView
+                android:id="@+id/textView151"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="돈쭐 소식 보내기"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="179dp" />
+
+            <TextView
+                android:id="@+id/textView149"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문의하기"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName32"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="430dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName27"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="159dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName28"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="213dp" />
+
+            <TextView
+                android:id="@+id/textView147"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="협력기관"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="342dp" />
+
+            <TextView
+                android:id="@+id/textView152"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="로그아웃"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="450dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="28dp"
+                android:layout_height="34dp"
+                app:srcCompat="@drawable/baseline_corporate_fare_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="342dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton35"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_add_24"
+                tools:layout_editor_absoluteX="367dp"
+                tools:layout_editor_absoluteY="179dp" />
+
+            <TextView
+                android:id="@+id/textView148"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="결제하기"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="125dp" />
+
+            <TextView
+                android:id="@+id/textView144"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="공지사항"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName30"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="322dp" />
+
+            <TextView
+                android:id="@+id/textView146"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="만든 사람들"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="396dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton31"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_add_24"
+                tools:layout_editor_absoluteX="367dp"
+                tools:layout_editor_absoluteY="396dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton34"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_add_24"
+                tools:layout_editor_absoluteX="367dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                app:srcCompat="@drawable/baseline_playlist_add_check_circle_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton33"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_add_24"
+                tools:layout_editor_absoluteX="367dp"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="28dp"
+                android:layout_height="34dp"
+                app:srcCompat="@drawable/baseline_people_alt_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="396dp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                app:srcCompat="@drawable/baseline_monetization_on_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="125dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName34"
+                android:layout_width="379dp"
+                android:layout_height="20dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="538dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton28"
+                android:layout_width="43dp"
+                android:layout_height="42dp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_notifications_24"
+                tools:layout_editor_absoluteX="352dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="설정"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="189dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="28dp"
+                android:layout_height="34dp"
+                app:srcCompat="@drawable/baseline_delete_outline_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="504dp" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="28dp"
+                android:layout_height="34dp"
+                app:srcCompat="@drawable/baseline_error_outline_24"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <TextView
+                android:id="@+id/textView150"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FAQ"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="233dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton36"
+                android:layout_width="28sp"
+                android:layout_height="34sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/baseline_add_24"
+                tools:layout_editor_absoluteX="367dp"
+                tools:layout_editor_absoluteY="125dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
